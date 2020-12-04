@@ -12,13 +12,14 @@
     width: 100%;
     min-height: 100%;
     height: auto;
-    background-color: #d0d0d0;
+    background-color: rgba(0,0,0, .7);
   }
 }
 
 .widget {
 
   &__message-container {
+    background-color: #f9f9f9;
     display: flex;
     flex-direction: column;
     height: 300px;
@@ -27,7 +28,7 @@
     &.all-actives {
       height: auto;
       overflow: auto;
-      width: 600px;
+      max-width: 600px;
       margin: 0 auto;
 
       +.widget__statistic {
@@ -38,8 +39,10 @@
   }
 
   &__message {
-    background-color: #f9f9f9;
-    min-height: 100px;
+
+    margin-bottom: 10px;
+
+    height: fit-content;
     padding: 5px;
     transition: all .3s ease-in-out;
 
@@ -49,6 +52,33 @@
 
     &:hover {
       background-color: #d0d0d0;
+    }
+  }
+
+  &__message-title {
+    text-align: center;
+    margin-bottom: .5em;
+  }
+
+  &__message-author {
+    font-style: italic;
+    margin-bottom: .4em;
+    color: rgba(0, 0, 0, .3);
+  }
+
+  &__message-data-time {
+    font-family: Consolas;
+    font-size: 12px;
+    margin-bottom: .3em;
+    color: rgba(0, 0, 0, .3);
+  }
+
+  &__message-link {
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:hover {
+      text-decoration: underline;
     }
   }
 
@@ -85,7 +115,7 @@
   &::before {
     content: 'X';
     font-weight: 300;
-    color: #000;
+    color: #fff;
     font-size: 60px;
     font-family: Arial, sans-serif;
   }

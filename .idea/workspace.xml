@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c2c7d96-c0a9-4a7d-a90e-2b1ace2d45a3" name="Default Changelist" comment="" />
+    <list default="true" id="1c2c7d96-c0a9-4a7d-a90e-2b1ace2d45a3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scripts/widget.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scripts/widget.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/widget.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/widget.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/widget.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/widget.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/widget.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/widget.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -15,6 +28,9 @@
         <option value="SCSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1l6uH0AED175CsZeHLMociuqnyP" />
   <component name="ProjectViewState">
@@ -39,6 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606929770408</updated>
       <workItem from="1606929771438" duration="12302000" />
+      <workItem from="1607083794926" duration="3442000" />
     </task>
     <servers />
   </component>
@@ -58,5 +75,17 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1606929852569" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/assets/scripts/widget.js</url>
+          <line>6</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

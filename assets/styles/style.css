@@ -8,10 +8,20 @@
   display: flex;
 }
 
-.content {
+.widget {
+  width: 40%;
+  flex: 0 1 30%;
+}
+
+.container {
   max-width: 1100px;
   margin: 0 auto;
-  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  flex: 1 1 69%;
 }
 
 /*# sourceMappingURL=style.css.map */

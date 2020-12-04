@@ -1,7 +1,9 @@
 
 const $ = document.querySelector.bind(document);
 const $$ = document.querySelectorAll.bind(document);
-
+// async function () {
+//
+// }
 let messages = [
     {
         index: 0,
@@ -199,10 +201,13 @@ closeButton.classList.add('close');
 closeButton.addEventListener('click', showAllMessages);
 
 messages.forEach(value => {
+    let messageRow = document.createElement('div');
+    messageRow.classList.add('widget__message-row');
+
     let message = document.createElement('div');
     message.classList.add('widget__message');
 
-    let header = document.createElement('h1');
+    let header = document.createElement('h3');
     header.classList.add('widget__message-title');
 
     let author = document.createElement('p');
@@ -218,7 +223,7 @@ messages.forEach(value => {
     header.innerText = value.header;
     author.innerText = value.author;
     dataTime.innerText = value.dataTime;
-    link.innerText = 'Click here for more information';
+    link.innerText = 'Learn more...';
 
     link.addEventListener('click', (e) => {
         e.currentTarget.parentNode.classList.add('active');
@@ -231,7 +236,6 @@ messages.forEach(value => {
 
     messageContainer.appendChild(message);
 })
-
 
 
 

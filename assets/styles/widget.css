@@ -10,10 +10,11 @@
   width: 100%;
   min-height: 100%;
   height: auto;
-  background-color: #d0d0d0;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .widget__message-container {
+  background-color: #f9f9f9;
   display: flex;
   flex-direction: column;
   height: 300px;
@@ -22,15 +23,15 @@
 .widget__message-container.all-actives {
   height: auto;
   overflow: auto;
-  width: 600px;
+  max-width: 600px;
   margin: 0 auto;
 }
 .widget__message-container.all-actives + .widget__statistic {
   display: none;
 }
 .widget__message {
-  background-color: #f9f9f9;
-  min-height: 100px;
+  margin-bottom: 10px;
+  height: fit-content;
   padding: 5px;
   transition: all 0.3s ease-in-out;
 }
@@ -39,6 +40,28 @@
 }
 .widget__message:hover {
   background-color: #d0d0d0;
+}
+.widget__message-title {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+.widget__message-author {
+  font-style: italic;
+  margin-bottom: 0.4em;
+  color: rgba(0, 0, 0, 0.3);
+}
+.widget__message-data-time {
+  font-family: Consolas;
+  font-size: 12px;
+  margin-bottom: 0.3em;
+  color: rgba(0, 0, 0, 0.3);
+}
+.widget__message-link {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.widget__message-link:hover {
+  text-decoration: underline;
 }
 .widget__statistic {
   background-color: #0073ff;
@@ -68,7 +91,7 @@
 .close::before {
   content: "X";
   font-weight: 300;
-  color: #000;
+  color: #fff;
   font-size: 60px;
   font-family: Arial, sans-serif;
 }
