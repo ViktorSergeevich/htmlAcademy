@@ -8,7 +8,7 @@ window.onload = () => {
             index: 0,
             header: 'One of the message 1',
             author: 'Viktor Kharchenko',
-            dataTime: '20.10.2020',
+            dataTime: '23.10.2020 14:28:00',
             link: '#',
             status: false
         },
@@ -16,7 +16,7 @@ window.onload = () => {
             index: 1,
             header: 'One of the message 2sa dasdas dasdasd asdsad asd',
             author: 'Viktor Kharchenko',
-            dataTime: '21.10.2020',
+            dataTime: '21.10.2020 14:28:00',
             link: '#',
             status: false
         },
@@ -24,7 +24,7 @@ window.onload = () => {
             index: 2,
             header: 'One of the message 3',
             author: 'Viktor Kharchenko',
-            dataTime: '23.10.2020',
+            dataTime: '23.10.2020 14:28:00',
             link: '#',
             status: false
         },
@@ -32,7 +32,7 @@ window.onload = () => {
             index: 3,
             header: 'One of the message 4',
             author: 'Viktor Kharchenko',
-            dataTime: '24.10.2020',
+            dataTime: '24.10.2020 14:28:00',
             link: '#',
             status: false
         },
@@ -40,7 +40,7 @@ window.onload = () => {
             index: 4,
             header: 'One of the message 5',
             author: 'Viktor Kharchenko',
-            dataTime: '25.10.2020',
+            dataTime: '25.10.2020  14:28:00',
             link: '#',
             status: false
         },
@@ -48,7 +48,7 @@ window.onload = () => {
             index: 5,
             header: 'One of the message 1',
             author: 'Viktor Kharchenko',
-            dataTime: '20.10.2020',
+            dataTime: '20.10.2020  14:28:00',
             link: '#',
             status: false
         },
@@ -56,7 +56,7 @@ window.onload = () => {
             index: 6,
             header: 'One of the message 2',
             author: 'Viktor Kharchenko',
-            dataTime: '21.10.2020',
+            dataTime: '21.10.2020  14:28:00',
             link: '#',
             status: false
         },
@@ -64,7 +64,7 @@ window.onload = () => {
             index: 7,
             header: 'One of the message 3',
             author: 'Viktor Kharchenko',
-            dataTime: '23.10.2020',
+            dataTime: '23.10.2020  14:28:00',
             link: '#',
             status: false
         },
@@ -72,7 +72,7 @@ window.onload = () => {
             index: 8,
             header: 'One of the message 4',
             author: 'Viktor Kharchenko',
-            dataTime: '24.10.2020',
+            dataTime: '24.10.2020  14:28:00',
             link: '#',
             status: false
         },
@@ -80,7 +80,7 @@ window.onload = () => {
             index: 9,
             header: 'One of the message 5',
             author: 'Viktor Kharchenko',
-            dataTime: '25.10.2020',
+            dataTime: '25.10.2020  14:28:00',
             link: '#',
             status: false
         },
@@ -88,7 +88,7 @@ window.onload = () => {
             index: 10,
             header: 'One of the message 1',
             author: 'Viktor Kharchenko',
-            dataTime: '20.10.2020',
+            dataTime: '20.10.2020  14:28:00',
             link: '#',
             status: false
         },
@@ -96,7 +96,7 @@ window.onload = () => {
             index: 11,
             header: 'One of the message 2',
             author: 'Viktor Kharchenko',
-            dataTime: '21.10.2020',
+            dataTime: '21.10.2020  14:28:00',
             link: '#',
             status: false
         },
@@ -104,7 +104,7 @@ window.onload = () => {
             index: 12,
             header: 'One of the message 3',
             author: 'Viktor Kharchenko',
-            dataTime: '23.10.2020',
+            dataTime: '23.10.2020  14:28:00',
             link: '#',
             status: false
         },
@@ -112,7 +112,7 @@ window.onload = () => {
             index: 13,
             header: 'One of the message 4',
             author: 'Viktor Kharchenko',
-            dataTime: '24.10.2020',
+            dataTime: '24.10.2020  14:28:00',
             link: '#',
             status: false
         },
@@ -120,7 +120,7 @@ window.onload = () => {
             index: 14,
             header: 'One of the message 5',
             author: 'Viktor Kharchenko',
-            dataTime: '25.10.2020',
+            dataTime: '25.10.2020  14:28:00',
             link: '#',
             status: false
         },
@@ -128,7 +128,7 @@ window.onload = () => {
             index: 15,
             header: 'One of the message 1',
             author: 'Viktor Kharchenko',
-            dataTime: '20.10.2020',
+            dataTime: '20.10.2020  14:28:00',
             link: '#',
             status: false
         },
@@ -136,7 +136,7 @@ window.onload = () => {
             index: 16,
             header: 'One of the message 2',
             author: 'Viktor Kharchenko',
-            dataTime: '21.10.2020',
+            dataTime: '21.10.2020  14:28:00',
             link: '#',
             status: false
         },
@@ -144,7 +144,7 @@ window.onload = () => {
             index: 17,
             header: 'One of the message 3',
             author: 'Viktor Kharchenko',
-            dataTime: '23.10.2020',
+            dataTime: '23.10.2020  14:28:00',
             link: '#',
             status: false
         },
@@ -152,7 +152,7 @@ window.onload = () => {
             index: 18,
             header: 'One of the message 4',
             author: 'Viktor Kharchenko',
-            dataTime: '24.10.2020',
+            dataTime: '24.10.2020  14:28:00',
             link: '#',
             status: false
         },
@@ -160,7 +160,7 @@ window.onload = () => {
             index: 19,
             header: 'One of the message 5',
             author: 'Viktor Kharchenko',
-            dataTime: '25.10.2020',
+            dataTime: '25.10.2020  14:28:00',
             link: '#',
             status: false
         },
@@ -175,8 +175,6 @@ window.onload = () => {
 
     let messageContainer = $ce('div');
     messageContainer.classList.add('widget__message-container');
-
-
 
     let stats = $ce('div');
     stats.classList.add('widget__statistic');
@@ -215,6 +213,7 @@ window.onload = () => {
         let link = $ce('a');
         link.classList.add('widget__message-link');
         link.setAttribute('href', value.link);
+
 
         header.innerText = value.header;
         author.innerText = value.author;
