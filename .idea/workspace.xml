@@ -4,6 +4,12 @@
     <list default="true" id="1c2c7d96-c0a9-4a7d-a90e-2b1ace2d45a3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scripts/widget.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scripts/widget.js" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/assets/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/style.scss" afterDir="false" />
+>>>>>>> 515824e6c195fc8cdeb52b89a87be9deab76f58e
       <change beforePath="$PROJECT_DIR$/assets/styles/widget.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/widget.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/widget.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/widget.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/widget.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/widget.scss" afterDir="false" />
@@ -53,10 +59,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606929770408</updated>
+<<<<<<< HEAD
       <workItem from="1606929771438" duration="12594000" />
       <workItem from="1607001560128" duration="207000" />
       <workItem from="1607012473154" duration="480000" />
       <workItem from="1607169779354" duration="4625000" />
+=======
+      <workItem from="1606929771438" duration="12302000" />
+      <workItem from="1607083794926" duration="3442000" />
+>>>>>>> 515824e6c195fc8cdeb52b89a87be9deab76f58e
     </task>
     <servers />
   </component>
@@ -76,5 +87,17 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1607012577717" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/assets/scripts/widget.js</url>
+          <line>6</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

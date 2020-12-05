@@ -8,25 +8,48 @@
   border-radius: 10px 10px 0 0;
   width: 35vw;
 }
+<<<<<<< HEAD
 .widget.full-screen .widget__statistic::before {
   visibility: visible;
   transform: rotate(360deg);
+=======
+.wrapper-widget.full-screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+>>>>>>> 515824e6c195fc8cdeb52b89a87be9deab76f58e
 }
 .widget__message-container {
+  background-color: #f9f9f9;
   display: flex;
   flex-direction: column;
   height: 0;
   overflow: auto;
+<<<<<<< HEAD
   transition: all 0.3s ease-in-out;
+=======
+  max-width: 600px;
+  margin: 0 auto;
+>>>>>>> 515824e6c195fc8cdeb52b89a87be9deab76f58e
 }
 .widget__message-container.all-actives {
   height: 40vh;
 }
 .widget__message {
+<<<<<<< HEAD
   background-color: #ffffff;
   position: relative;
   border-bottom: 1px solid #a7d8ff;
   padding: 20px;
+=======
+  margin-bottom: 10px;
+  height: fit-content;
+  padding: 5px;
+>>>>>>> 515824e6c195fc8cdeb52b89a87be9deab76f58e
   transition: all 0.3s ease-in-out;
   display: flex;
   align-items: center;
@@ -48,6 +71,7 @@
 .widget__message:hover {
   background-color: #d0d0d0;
 }
+<<<<<<< HEAD
 .widget__message-author {
   flex: 0 0 28%;
   margin-right: 10px;
@@ -58,16 +82,39 @@
 .widget__message-link {
   flex: 0 0 30%;
   text-decoration: none;
+=======
+.widget__message-title {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+.widget__message-author {
+  font-style: italic;
+  margin-bottom: 0.4em;
+  color: rgba(0, 0, 0, 0.3);
+}
+.widget__message-data-time {
+  font-family: Consolas;
+  font-size: 12px;
+  margin-bottom: 0.3em;
+  color: rgba(0, 0, 0, 0.3);
+}
+.widget__message-link {
+  text-decoration: none;
+  text-transform: uppercase;
+>>>>>>> 515824e6c195fc8cdeb52b89a87be9deab76f58e
 }
 .widget__message-link:hover {
   text-decoration: underline;
 }
+<<<<<<< HEAD
 .widget__message-data-time {
   opacity: 0.7;
   font-weight: normal;
   font-size: 12px;
   flex: 0 0 10%;
 }
+=======
+>>>>>>> 515824e6c195fc8cdeb52b89a87be9deab76f58e
 .widget__statistic {
   display: flex;
   justify-content: space-between;
@@ -92,8 +139,17 @@
   display: flex;
   align-items: center;
 }
+<<<<<<< HEAD
 .widget__statistic-container img {
   margin-right: 15px;
+=======
+.close::before {
+  content: "X";
+  font-weight: 300;
+  color: #fff;
+  font-size: 60px;
+  font-family: Arial, sans-serif;
+>>>>>>> 515824e6c195fc8cdeb52b89a87be9deab76f58e
 }
 
 /*# sourceMappingURL=widget.css.map */
