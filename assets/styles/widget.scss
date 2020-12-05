@@ -1,50 +1,64 @@
 
-.wrapper-widget {
-  min-width: 200px;
-  padding: 20px;
 
-  transition: all .3s ease-in-out;
-
-  &.full-screen {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    min-height: 100%;
-    height: auto;
-    background-color: #d0d0d0;
-  }
-}
 
 .widget {
+  position: fixed;
+  bottom: 0;
+  right: 20px;
+  border: 1px solid #f5f5f5;
+  border-bottom: none;
+  border-radius: 10px 10px 0 0;
+  width: 35vw;
+  &.full-screen {
+    .widget__statistic {
+      &::before {
+        visibility: visible;
+
+        transform: rotate(360deg);
+      }
+    }
+  }
+
 
   &__message-container {
     display: flex;
     flex-direction: column;
-    height: 300px;
-    overflow: hidden;
+    height: 0;
+    overflow: auto;
+    transition: all .3s ease-in-out;
 
     &.all-actives {
-      height: auto;
-      overflow: auto;
-      width: 600px;
-      margin: 0 auto;
-
-      +.widget__statistic {
-        display: none;
-      }
+      height: 40vh;
     }
 
   }
 
   &__message {
-    background-color: #f9f9f9;
-    min-height: 100px;
-    padding: 5px;
+    background-color: #ffffff;
+    position: relative;
+    border-bottom: 1px solid rgba(167,216,255,1);
+    padding: 20px;
     transition: all .3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-weight: normal;
+    &.new-msg {
+      //background-color: #c0c0c0;
+      font-weight: bold;
 
-    &.active {
-      background-color: #c0c0c0;
+
+
+      &::before {
+        content: '';
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background-color: #000;
+        border-radius: 50%;
+      }
+
     }
 
     &:hover {
@@ -52,41 +66,59 @@
     }
   }
 
+  &__message-author {
+    flex: 0 0 28%;
+    margin-right: 10px;
+  }
+  &__message-title {
+    flex: 0 0 30%;
+  }
+  &__message-link {
+    flex: 0 0 30%;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  &__message-data-time {
+    opacity: .7;
+    font-weight: normal;
+    font-size: 12px;
+    flex: 0 0 10%;
+  }
+
+
   &__statistic {
-    background-color: #0073ff;
-    padding: 3px 7px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    background-color: #005FF9;
+    font-size: 1.4em;
+    color: white;
+    position: relative;
+    height: 2em;
+    padding: 3px 7px;
+    border-radius: 10px 10px 0 0;
     cursor: pointer;
 
+    &::before {
+      transition: all .3s ease-in-out .1s;
+      position: absolute;
+      transform: rotate(-180deg);
+      content: '↓';
+      right: 20px;
+    }
+
+  }
+
+  &__statistic-container {
+    display: flex;
+    align-items: center;
 
     img {
-      margin: 0 10px;
+      margin-right: 15px;
     }
   }
 }
 
-.close {
-  display: none;
-  position: absolute;
-  top: 25px;
-  right: 25px;
-  cursor: pointer;
-  transition: all .3s ease-in-out;
-
-  &.active {
-    display: block;
-  }
-
-  &:hover {
-    transform: scale(1.5);
-  }
-
-  &::before {
-    content: 'X';
-    font-weight: 300;
-    color: #000;
-    font-size: 60px;
-    font-family: Arial, sans-serif;
-  }
-}
