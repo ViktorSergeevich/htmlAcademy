@@ -1,5 +1,6 @@
 
 const $ = document.querySelector.bind(document);
+const $ce = document.createElement.bind(document)
 
 window.onload = () => {
     let messages = [
@@ -168,26 +169,26 @@ window.onload = () => {
 
     let docBody = $('body');
 
-    let wrapper = document.createElement('div');
+    let wrapper = $ce('div');
     wrapper.classList.add('widget');
 
 
-    let messageContainer = document.createElement('div');
+    let messageContainer = $ce('div');
     messageContainer.classList.add('widget__message-container');
 
 
 
-    let stats = document.createElement('div');
+    let stats = $ce('div');
     stats.classList.add('widget__statistic');
 
-    let statsContainer = document.createElement('div');
+    let statsContainer = $ce('div');
     statsContainer.classList.add('widget__statistic-container');
 
-    let watchImg = document.createElement('img');
+    let watchImg = $ce('img');
     watchImg.setAttribute('src', './assets/images/message.png');
     watchImg.setAttribute('height', '20');
 
-    let countOfMessage = document.createElement('p');
+    let countOfMessage = $ce('p');
     countOfMessage.innerText = messages.length;
 
     statsContainer.appendChild(watchImg);
@@ -199,19 +200,19 @@ window.onload = () => {
 
 
     messages.forEach(value => {
-        let message = document.createElement('div');
+        let message = $ce('div');
         message.classList.add('widget__message');
 
-        let header = document.createElement('p');
+        let header = $ce('p');
         header.classList.add('widget__message-title');
 
-        let author = document.createElement('p');
+        let author = $ce('p');
         author.classList.add('widget__message-author');
 
-        let dataTime = document.createElement('p');
+        let dataTime = $ce('p');
         dataTime.classList.add('widget__message-data-time');
 
-        let link = document.createElement('a');
+        let link = $ce('a');
         link.classList.add('widget__message-link');
         link.setAttribute('href', value.link);
 

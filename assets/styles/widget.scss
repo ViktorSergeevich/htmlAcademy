@@ -44,17 +44,14 @@
     text-align: center;
     font-weight: normal;
     &.new-msg {
-      //background-color: #c0c0c0;
       font-weight: bold;
-
-
 
       &::before {
         content: '';
         position: absolute;
         width: 10px;
         height: 10px;
-        background-color: #000;
+        background-color: #005ff9;
         border-radius: 50%;
       }
 
@@ -100,6 +97,11 @@
     padding: 3px 7px;
     border-radius: 10px 10px 0 0;
     cursor: pointer;
+    transition: all .3s ease-in-out;
+
+    &:hover {
+      background-color: #0042b3;
+    }
 
     &::before {
       transition: all .3s ease-in-out .1s;

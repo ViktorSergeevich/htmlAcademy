@@ -42,7 +42,7 @@
   position: absolute;
   width: 10px;
   height: 10px;
-  background-color: #000;
+  background-color: #005ff9;
   border-radius: 50%;
 }
 .widget__message:hover {
@@ -80,6 +80,10 @@
   padding: 3px 7px;
   border-radius: 10px 10px 0 0;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.widget__statistic:hover {
+  background-color: #0042b3;
 }
 .widget__statistic::before {
   transition: all 0.3s ease-in-out 0.1s;
