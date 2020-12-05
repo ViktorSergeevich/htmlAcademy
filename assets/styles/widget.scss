@@ -13,7 +13,6 @@
     .widget__statistic {
       &::before {
         visibility: visible;
-
         transform: rotate(360deg);
       }
     }
